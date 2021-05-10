@@ -1,0 +1,357 @@
+/*header of site */
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #356cab;
+}
+
+.logo-vs-menu {
+	height: 100px;
+	display: flex;
+	padding: 0 10px;
+	align-items: center;
+	width: 1219px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo img {
+	width: 130px;
+	margin-top: 125px;
+	margin-left: 0px;
+}
+
+.logo p {
+	font-size: 40px;
+	margin-left: 50px;
+	margin-top: -77px;
+	color: white;
+	text-shadow: 2px 1px 1px black;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black
+}
+
+.logo {
+	margin-top: -110px;
+	margin-left: 10%;
+}
+
+.menu {
+	margin-left: 30%;
+	padding: 5px;
+}
+
+.menu li {
+	display: inline;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-right: 3px;
+    border: 2px solid #ffffff;
+    padding: 3px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px black;
+	
+}
+
+.menu p {
+	color: #ffffff;
+	font-size: 22px;
+	font-family: sans-serif;
+	text-shadow: 2px 1px 1px black;
+}
+
+/* section 1 of 3 */
+
+.image-sec-1 {
+	width: 100%;
+	height: 400px;
+	background: url('photo/img1.jpg');
+	background-size: 100%;
+}
+
+.one {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1219px;
+}
+
+.one .name-on-image {
+	margin-left: 60%;
+	margin-top: -23%;
+}
+
+.one .name-on-image .name {
+	font-size: 38px;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+}
+
+.one .name-on-image .short-title {
+	font-size: 25px;
+	color: white;
+	border: 3px solid white;
+	margin-top: -12px;
+	margin-left: -2%;
+}
+
+.one .name-on-image .contacts {
+	font-size: 111%;
+	margin-left: -75%;
+	color: white;
+	-webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black
+}
+
+.one .biography {
+	margin-top: 10%;
+	margin-left: 43%;
+}
+
+.one .biography h1 {
+	font-size: 40px;
+	font-family: monospace;
+	color: #363a52;	
+	padding: 5px;
+}
+
+.one .biography p {
+	color: #363a52;
+	font-size: 25px;
+	margin-left: -70%;
+	font-family: sans-serif;
+	padding: 12px;
+}
+
+.one .biography figure img {
+	width: 50%;
+	float: right;
+	margin: 0px 100px 30px 20px;
+	padding: 5px;
+}
+
+.one .biography figure p {
+	float: right;
+	margin: 320px -350px;
+	padding: 10px;
+	font-size: 300%;
+	font-family: monospace;
+}
+
+/* section 2 of 3 */
+
+.image-sec-2 {
+	width: 100%;
+	height: 400px;
+	background:url('photo/img2.jpg');
+	background-position: center;
+	padding: 5px;
+	background-size: 100%;
+}
+
+
+.two {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1219px;
+}
+
+.two .text-block .head {
+	color: white;
+	font-size: 100px;
+	float: right;
+	margin-right: 25%;
+	margin-top: -5%;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+	text-shadow: 3px 2px 1px black;
+	font-family: monospace;
+	border: 2px solid white;
+}
+
+.two .text-block .body{
+	margin-left: 30px;
+	margin-top: -20%;
+	margin-right: 30px;
+}
+
+.two .text-block .body table{
+	width: 100%;
+}
+
+.two .text-block .body table tr{
+	height: 80px;
+	background: #d6ffea;
+}
+
+.two .text-block .body table tr td {
+	width: 80%;
+	color: #273145;
+	font-size: 22px;
+	font-family: monospace;
+	background: #cbdaf7;
+}
+
+.two .text-block .body table tr th {
+	color: #191833;
+	font-size: 20px;
+} 
+
+.two .text-block .body table caption {
+	font-size: 30px;
+	font-family: monospace;
+	color: #c2baba;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+/*section 3 of 3*/
+
+.image-sec-3 {
+	width: 100%;
+	height: 400px;
+	background: url('photo/img3.jpg');
+	background-size: 100%;
+	background-position: center;
+}
+
+.image-sec-3 .area {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1219px;
+}
+
+.image-sec-3 .area p {
+	font-size: 80px;
+	margin: 5px;
+	padding-left: 410px;
+	padding-top: 250px;
+	font-family: monospace;
+	color:white;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+	text-shadow: 3px 2px 1px black;
+}
+
+
+.three {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1219px;
+}
+
+.main-block-3 {
+	margin: 5px;
+	width: 1190px;
+}
+
+.hir img {
+	width: 35%;
+	float: right;
+	background: #e0ebff;
+}
+
+.hir {
+	font-family: sans-serif;
+	font-size:35px;
+	color: #3c3f45;
+	background: #e0ebff;
+	padding-top: 25px;
+	padding-bottom: 7px;
+	padding-right: 5px;
+	text-shadow: 3px 1px 1px white;
+	margin-bottom: 150px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.oft img {
+	width: 35%;
+	background: #e0ebff;
+	margin: 2px;
+	float: left;
+	padding-right: 10px;
+}
+
+.oft {
+	font-size: 35px;
+	padding-top: 50px;
+	font-family: sans-serif;
+	text-shadow: 3px 1px 1px white;
+	color: #3c3f45;
+	background: #e0ebff;
+	padding-left: 5px;
+	
+}
+
+
+.ter img {
+	width: 35%;
+	float: right;
+	background: #e0ebff;
+}
+
+.ter {
+	font-family: sans-serif;
+	font-size:35px;
+	color: #3c3f45;
+	background: #e0ebff;
+	padding-top: 50px;
+	padding-bottom: 7px;
+	padding-right: 5px;
+	text-shadow: 3px 1px 1px white;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 120px;
+}
+
+
+.onk img {
+	width: 35%;
+	background: #e0ebff;
+	margin: 2px;
+	float: left;
+	padding-right: 10px;
+}
+
+.onk {
+	font-size: 35px;
+	padding-top: 50px;
+	font-family: sans-serif;
+	text-shadow: 3px 1px 1px white;
+	color: #3c3f45;
+	background: #e0ebff;
+	padding-left: 5px;
+	margin-top: 130px;
+
+}
+
+
+/* end */
+
+.image-end {
+	width: 100%;
+	height: 110px;
+	background: url('photo/contacts.jpg');
+	background-position: center;
+	margin-top: 180px;
+	background-size: 100%;
+}
+
+.image-end .area {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1219px;
+}
+
+.image-end .area p {
+	margin-left:60%;
+	font-size: 20px;
+	margin-top:15px;
+	border: 2px solid black;
+	font-family: monospace;
+	width: 45%;
+	background: rgba(184, 224, 255, 40%)
+}
